@@ -1,0 +1,17 @@
+h1 {
+  animation: color-change 3s infinite;
+}
+@keyframes color-change {
+  0%   { color: hsl(43, 97%, 14%); }
+  50%  { color: rgb(190, 202, 17); }
+  100% { color: #583e04; }
+}
+h2 {
+  animation: size-changes 3s infinite;
+}
+@keyframes size-changes{
+
+  0%   { font-size: 15px; }
+  50%  { font-size: 30px; }
+  100% { font-size: 45px; }
+}
